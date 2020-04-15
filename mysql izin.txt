@@ -1,0 +1,6 @@
+GRANT ALL ON subp2.ogrenciler TO 'root'@'%' IDENTIFIED BY '123456';
+
+
+GRANT ALL ON *.* to root@’192.168.1.23' IDENTIFIED BY ‘123456’;
+
+GRANT ALL ON *.* to root@'%' IDENTIFIED BY '123456'; tüm izinler

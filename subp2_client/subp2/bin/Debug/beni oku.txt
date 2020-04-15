@@ -1,0 +1,14 @@
+192.168.1.23   server bilgisayarýnýn ip adresi
+3306           sunucu port numarasý
+dmyo           veri tabaný ismi
+root	       veri tabaný kullanýcý adý
+123456         veri tabaný þifresi   þeklinde metin belgesine gerekli verileri yazýnýz bu metin belgesi programýn kurulu olduðu klasörünün içerisinde yer almaktadýr
+
+Oluþturduðunuz veri tabanýnýn sql kýsmýna bu kodu " GRANT ALL ON *.* to root@'%' IDENTIFIED BY '123456'; " yapýþtýrýp sql komutunuzu çalýþtýrýnýz
+% tüm iplere izin   root veri tabaný ismi   123456  veri tabaný þifresi
+
+Kurulumu Yaptýktan sonra masaüstünden programýn iconuna saðtýklayýp silin
+
+
+Safa Uludoðan Bilgisayar Programcýlýðý 2.Sýnýf
+https://www.facebook.com/safa.uludogan.7
